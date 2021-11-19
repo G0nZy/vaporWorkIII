@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>g0nzy</title>
+     <link rel="stylesheet" href="./style.css">
+     <link
+     rel="stylesheet"
+     href="https://unpkg.com/swiper/swiper-bundle.min.css"
+   />
+   <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -150px;
+      margin-top: -150px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+
+
+    #cubeImgSize{
+
+
+      height: 100%;
+      width: 100%;
+
+    }
+
+    #cubeDescription{
+
+
+      font-family: Consolas;
+      margin-top: 10px;
+
+    }
+
+
+  </style>
+</head>
+<body>
+    
+
+
+            <!-- Particle Effect -->
+            <div id="snow"></div>
+            <!-- End of Particle Effect -->
+
+            
+            
+            <div class="containerRando">
+                <img id='topImage'src="./img/vaporMountain.png" alt="Snow" style="width:100%;">
+                
+                <div class="botoRight" >Soon In 3D !</div>
+                
+              </div> 
+             
+
+
+
+
+
+
+
+
+              
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div id='firstImage'class="swiper-slide" >
+            <img class='firstImage'id='cubeImgSize' src="../img/halo boy IV.png" />
+           <div id='firstImage'> <button onclick="window.location.href='./index.html';" 
+            id="cubeDescription">About Me</button></div>
+            <!-- <p id="cubeDescription">About Me</p> -->
+          </div>
+          <div class="swiper-slide">
+            <img id='cubeImgSize' src="../img/4x3.png" />
+            <div id='firstImage'> <button onclick="window.location.href='./index.html';" 
+              id="cubeDescription">Portfolio</button></div>
+            <!-- <p id="cubeDescription">Portfolio</p> -->
+          </div>
+          <div class="swiper-slide">
+            <img id='cubeImgSize' src="../img/adventure quest1.png" />
+            <div id='firstImage'> <button onclick="window.location.href='./index.html';" 
+              id="cubeDescription">XR Experiences</button></div>
+            <!-- <p id="cubeDescription">XR Experiences</p> -->
+          </div>
+          <div class="swiper-slide">
+            <img id='cubeImgSize' src="../img/hero.png" />
+            <div id='firstImage'> <button onclick="window.location.href='./index.html';" 
+              id="cubeDescription">NFT Showcase</button></div>
+            <!-- <p id="cubeDescription">NFT Showcase</p> -->
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- <div class="cyberLinks">
+
+                   <a href="https://github.com/G0nZy" id="cyberText">Github</a> 
+                   <hr>
+                   <a href="https://twitter.com/therealg0nZy" id="cyberText">Twitter</a> 
+                   <hr>
+                   <a href="https://foundation.app/@G0nZy" id="cyberText">Foundation</a> 
+
+
+
+
+                </div> -->
+
+
+
+                
+
+
+
+
+
+
+                    <!-- Slider Menu -->
+                <div class="scrollmenu">
+                    <a href="https://github.com/G0nZy">Github</a>
+                    <a href="https://twitter.com/therealg0nZy">Twitter</a>
+                    <a href="https://foundation.app/@G0nZy">Foundation</a>
+                    <a href="#about">LinkedIn</a>
+                    <a href="#about">Instagram</a>
+                    
+                  </div> 
+                  <!-- End of Slider Menu -->
+
+
+
+
+
+
+
+
+
+
+
+
+                  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "cube",
+          grabCursor: true,
+          cubeEffect: {
+            shadow: true,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+
+
+
+
+
+        
+// Snow Effect
+document.addEventListener('DOMContentLoaded', function(){
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+    script.onload = function(){
+        particlesJS("snow", {
+            "particles": {
+                "number": {
+                    "value": 300,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#afeeee"
+                },
+                "opacity": {
+                    "value": 0.3,
+                    "random": true,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 1,
+                    "direction": "up",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": true,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 300,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": false
+                    },
+                    "onclick": {
+                        "enable": false
+                    },
+                    "resize": false
+                }
+            },
+            "retina_detect": true
+        });
+    }
+    document.head.append(script);
+});
+// End of Snow Effect
+
+      </script>
+
+</body>
+</html>
+
+<style>
+        
+
+
+
+        #transparentHR {
+
+
+
+                    opacity: 0;
+
+        }
+
+        
+        /* my personal code */
+        .cardTitle{
+
+
+                    font-size: 20px;
+
+        }
+        
+        /* end of that */
+
+        </style>
+        
+<script src="./script.js"></script>
