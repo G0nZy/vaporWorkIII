@@ -257,5 +257,29 @@ border-radius: 25px;
 }
 
 
+#developerLogContainer{
 
+
+   margin-top: 150px;
+   border-style:double;
+   margin-left: 10%;
+   margin-right: 10%;
+
+
+}
+
+#developerLogTitle{
+
+   margin-left: 10%;
+  
+
+}
+
+#developerTextTitle{
+
+   margin-left: 20%;
+   margin-top: 5%;
+   
+
+}
 
