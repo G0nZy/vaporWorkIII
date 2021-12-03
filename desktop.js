@@ -89,3 +89,5 @@ document.getElementById("pictureBox4").onclick = function(){myFunction4()};
 function myFunction4(){
     window.location.href = "./test.html";
 };
+
+// END OF PORTAL CLICK EVENTS

@@ -60,7 +60,15 @@
 
 
       font-family: Consolas;
-      margin-top: 10px;
+      /* margin-top: 10px; */
+      /* padding-top: 10px; */
+      border: solid;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      margin-right: 75%;
+      
 
     }
 
@@ -165,25 +173,25 @@ margin-bottom: 50px;
         <div class="swiper-wrapper">
           <div id='firstImage'class="swiper-slide" >
             <img class='firstImage'id='cubeImgSize' src="../img/hero.png" />
-           <div id='firstImage'> <button onclick="window.location.href='./aboutMeGO.html';" 
-            id="cubeDescription">About Me</button></div>
+           <div id='firstImage'> <p onclick="window.location.href='./aboutMeGO.html';" 
+            id="cubeDescription">About Me</p></div>
             <!-- <p id="cubeDescription">About Me</p> -->
           </div>
           <div class="swiper-slide">
             <img id='cubeImgSize' src="../img/4x3.png" />
-            <div id='firstImage'> <button onclick="window.location.href='./test.html';" 
+            <div id='firstImage'> <button onclick="window.location.href='../test.html';" 
               id="cubeDescription">Portfolio</button></div>
             <!-- <p id="cubeDescription">Portfolio</p> -->
           </div>
           <div class="swiper-slide">
             <img id='cubeImgSize' src="../img/adventure quest1.png" />
-            <div id='firstImage'> <button onclick="window.location.href='./test.html';" 
+            <div id='firstImage'> <button onclick="window.location.href='../test.html';" 
               id="cubeDescription">XR Experiences</button></div>
             <!-- <p id="cubeDescription">XR Experiences</p> -->
           </div>
           <div class="swiper-slide">
             <img id='cubeImgSize' src="../img/halo boy IV.png" />
-            <div id='firstImage'> <button onclick="window.location.href='./test.html';" 
+            <div id='firstImage'> <button onclick="window.location.href='../test.html';" 
               id="cubeDescription">NFT Showcase</button></div>
             <!-- <p id="cubeDescription">NFT Showcase</p> -->
           </div>
@@ -208,8 +216,8 @@ margin-bottom: 50px;
         <p id="developerTextTitle">Are NFT's worth?</p>
 
       </div>
-<!-- END OF DEVELOPER NOTES -->
-<!-- DEVELOPER NOTE STYLES -->
+                                                          <!-- END OF DEVELOPER NOTES -->
+                                                          <!-- DEVELOPER NOTE STYLES -->
 <style>
 
   #developerLogContainer{   
@@ -235,7 +243,7 @@ color: blue;
 <!--  END OF DEVELOPER NOTE STYLES -->
 
 
-                  <!-- Slider Menu -->
+        <!-- Slider Menu -->
                 <div class="scrollmenu" style="background-color: steelblue;">
                     <a href="https://github.com/G0nZy">Github</a>
                     <a href="https://twitter.com/therealg0nZy">Twitter</a>
@@ -244,7 +252,7 @@ color: blue;
                     <a href="https://www.instagram.com/frankcabreraiii/">Instagram</a>
                     
                   </div> 
-                  <!-- End of Slider Menu -->
+        <!-- End of Slider Menu -->
 
 <!-- CUBE JAVASCRIPT -->
                   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -259,9 +267,9 @@ color: blue;
             shadowOffset: 20,
             shadowScale: 0.94,
           },
-          pagination: {
-            el: ".swiper-pagination",
-          },
+          // pagination: {
+          //   el: ".swiper-pagination",
+          // },
         });
 // END OF CUBE JAVASCRIPT
 
