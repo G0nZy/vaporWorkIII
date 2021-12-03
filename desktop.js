@@ -66,3 +66,26 @@ document.addEventListener('DOMContentLoaded', function(){
 // End of Snow Effect
 
 
+
+
+// PORTAL ON CLICK EVENTS
+
+document.getElementById("pictureBox1").onclick = function(){myFunction1()};
+function myFunction1(){
+    window.location.href = "./aboutMe.html";
+};
+
+document.getElementById("pictureBox2").onclick = function(){myFunction2()};
+function myFunction2(){
+    window.location.href = "./test.html";
+};
+
+document.getElementById("pictureBox3").onclick = function(){myFunction3()};
+function myFunction3(){
+    window.location.href = "./test.html";
+};
+
+document.getElementById("pictureBox4").onclick = function(){myFunction4()};
+function myFunction4(){
+    window.location.href = "./test.html";
+};
