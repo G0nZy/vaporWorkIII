@@ -62,12 +62,17 @@
       font-family: Consolas;
       /* margin-top: 10px; */
       /* padding-top: 10px; */
-      border: solid;
-      border-top-left-radius: 5px;
+      
+       /* border-top-left-radius: 35px;
       border-top-right-radius: 5px;
       border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
-      margin-right: 75%;
+      border-bottom-right-radius: 5px; */
+      
+      margin-top: 5%;
+      padding-top: 1%;
+      padding-left: 2%;
+      padding-right: 2%;
+      font-size: 20px;
       
 
     }
@@ -173,8 +178,8 @@ margin-bottom: 50px;
         <div class="swiper-wrapper">
           <div id='firstImage'class="swiper-slide" >
             <img class='firstImage'id='cubeImgSize' src="../img/hero.png" />
-           <div id='firstImage'> <p onclick="window.location.href='./aboutMeGO.html';" 
-            id="cubeDescription">About Me</p></div>
+           <div id='firstImage'> <button onclick="window.location.href='./aboutMeGO.html';" 
+            id="cubeDescription">About Me</button></div>
             <!-- <p id="cubeDescription">About Me</p> -->
           </div>
           <div class="swiper-slide">
@@ -261,15 +266,15 @@ color: blue;
         var swiper = new Swiper(".mySwiper", {
           effect: "cube",
           grabCursor: true,
+          loop: true,
           cubeEffect: {
             shadow: true,
             slideShadows: true,
             shadowOffset: 20,
             shadowScale: 0.94,
+            
           },
-          // pagination: {
-          //   el: ".swiper-pagination",
-          // },
+          
         });
 // END OF CUBE JAVASCRIPT
 
