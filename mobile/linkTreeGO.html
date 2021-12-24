@@ -40,8 +40,12 @@
             <p class="tLink" id="tLink1">Github</p>
             </div>
             
-         <div>
+        <div>
             <p class="tLink" id="tLink2">Twitter</p>
+            </div>
+
+        <div>
+            <p class="tLink" id="tLink6">OpenSea</p>
             </div>
             
         <div>
@@ -50,6 +54,10 @@
             
         <div >
             <p class="tLink" id="tLink4">Instagram</p>
+            </div>
+
+        <div>
+            <p class="tLink" id="tLink7">Discord</p>
             </div>
         
         <div>
@@ -128,6 +136,20 @@ background: linear-gradient(165deg, red 0%, purple 55%, yellow 100%);
  margin-bottom: 30px;
  cursor: pointer;
  background-color: #cfc9c9;
+} 
+
+#tLink6:hover {
+ transform: scale(1.2);
+ margin-bottom: 30px;
+ cursor: pointer;
+ background-color: #2081E2;
+} 
+
+#tLink7:hover {
+ transform: scale(1.2);
+ margin-bottom: 30px;
+ cursor: pointer;
+ background-color: #404EED;
 } 
 </style>
 
@@ -222,6 +244,11 @@ function myFunction3(){
 document.getElementById("tLink4").onclick = function(){myFunction4()};
 function myFunction4(){
     window.location.href = "https://www.instagram.com/therealg0nzy/";
+};
+
+document.getElementById("tLink6").onclick = function(){myFunction6()};
+function myFunction6(){
+    window.location.href = "https://opensea.io/TheRealG0nZy";
 };
 // End of Links for the Tree
 
