@@ -48,12 +48,13 @@
     <div id="aboutMeFieldBox1">
         <ol>
 
-            <li class='topicDisco1'id="topicLinks">The Current State of VR</li>
-            <li id="topicLinks">Impact of A Crypto Culture</li>
+            <li id="topicLink1">The Current State of VR</li>
+            <!-- <li id="topicLinks">Impact of A Crypto Culture</li>
             <li id="topicLinks">Whats the Deal with NFT's</li>
-            <li id="topicLinks">How I Began This Adventure</li>
+            <li id="topicLinks">How I Began This Adventure</li> -->
         </ol>
     </div>
+    
 
 
 
@@ -135,9 +136,9 @@ border-top-right-radius: 10px;
 }
 
 
-#topicLinks{
+#topicLink1{
 
-    color: blue;
+    color: rgb(41, 41, 156);
     margin-top: 15px;
     font-size: 18px;
     text-decoration: underline;
@@ -153,10 +154,10 @@ border-top-right-radius: 10px;
 
 <script>
 
-document.getElementsByClassName("topicDisco1").onclick = function(){myFunction10()};
-function myFunction10(){
-    window.location.href = "./index.html";
-};
+ document.getElementById("topicLink1").onclick = function(){myFunction7()};
+ function myFunction7(){
+    window.location.href = "../journal/entry.html";
+ };
 
 
 </script>
