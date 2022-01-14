@@ -16,3 +16,6 @@ Ok January 11
 Nevermind January 
 
 
+
+
+Write out script for auto Returing user to mobile site (linktree) incase they accidentally discover desktop version (linktree)
