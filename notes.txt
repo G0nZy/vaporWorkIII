@@ -24,3 +24,5 @@ Major Goal for The Week of 1/16-1/22 is getting NFT Collection up to date
 & also making sure NFT Portals Page is finished & linked to my openSea Acct
 
 Same as before just making my daily commit 
+
+daily
