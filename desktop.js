@@ -87,7 +87,7 @@ function myFunction3(){
 
 document.getElementById("pictureBox4").onclick = function(){myFunction4()};
 function myFunction4(){
-    window.location.href = "./test.html";
+    window.location.href = "./nftShowcase.html";
 };
 
 // END OF PORTAL CLICK EVENTS
