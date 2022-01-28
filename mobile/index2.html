@@ -72,42 +72,151 @@
 
 
 
+        
+
+<!-- TRIAL CODE -->
+
+<style>
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    /* color: #000;
+    margin: 0;
+    padding: 0; */
+  }
+
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+</style>
+
+ <!-- Swiper -->
+ <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+    </div>
+    <div class="swiper-slide">
+      <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: true,
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+
+
+
+
+
+
+
+<!-- END OF TRIAL CODE -->
+
+
+
+
 
 <!-- DEVELOPER NOTES -->
-      <div id="developerLogContainer">
-        <h1 id="developerLogTitle">Dev Log</h1>
-        
-        
+<div id="developerLogContainer">
+  <h1 id="developerLogTitle">Dev Log</h1>
+  
+  
 
-        
+  
 
-        <p id="developerTextTitle">The State of VR</p>
-        <p id="developerTextTitle">Peloton was a Cash Grab</p>
-        <!-- <p id="developerTextTitle">Are NFT's worth?</p> -->
+  <p id="developerTextTitle">The State of VR</p>
+  <p id="developerTextTitle">Peloton was a Cash Grab</p>
+  <p id="developerTextTitle">more ...</p>
+  <!-- <p id="developerTextTitle">Are NFT's worth?</p> -->
 
-      </div>
+</div>
 <!-- END OF DEVELOPER NOTES -->
 <!-- DEVELOPER NOTE STYLES -->
 <style>
 
-  #developerLogContainer{   
-    margin-top: 30%;
-    border-style:double;
-    margin-left: 10%;
-   margin-right: 10%;
-   margin-bottom: 50px;
-   padding-bottom:50px;
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
-   border-bottom-left-radius: 10px;
-   border-bottom-right-radius: 10px;
-  }
+#developerLogContainer{   
+margin-top: 5%;
+border-style:double;
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 50px;
+padding-bottom:50px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
 #developerLogTitle{
 text-align: center;
 }
 #developerTextTitle{
 
- margin-left: 10%;
+margin-left: 10%;
 margin-top: 5%; 
 text-decoration: underline;
 color: blue;
@@ -117,45 +226,31 @@ color: blue;
 <script>
 document.getElementById("developerTextTitle").onclick = function(){myFunction9()};
 function myFunction9(){
-    window.location.href = "./devLogGO.html";
+window.location.href = "./devLogGO.html";
 };
 </script>
 <!--  END OF DEVELOPER NOTE STYLES -->
 
 
-        
-
-<!-- Slider Menu -->
-                <!-- <div class="scrollmenu" style="background-color: steelblue;">
-                    <a href="https://github.com/G0nZy">Github</a>
-                    <a href="https://twitter.com/therealg0nZy">Twitter</a>
-                    <a href="https://foundation.app/@G0nZy">Foundation</a> -->
-                    <!-- <a href="https://www.linkedin.com/in/frank-cabrera-iii/">LinkedIn</a> -->
-                    <!-- <a href="https://www.instagram.com/frankcabreraiii/">Instagram</a>
-                    
-                  </div>  -->
-<!-- End of Slider Menu -->
-
-<!-- CUBE JAVASCRIPT -->
-                  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-      <script>
-        var swiper = new Swiper(".mySwiper", {
-          effect: "cube",
-          grabCursor: true,
-          loop: true,
-          cubeEffect: {
-            shadow: true,
-            slideShadows: true,
-            shadowOffset: 20,
-            shadowScale: 0.94,
-            
-          },
-          
-        });
-// END OF CUBE JAVASCRIPT
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
 
 
         
