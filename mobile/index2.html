@@ -10,78 +10,14 @@
      rel="stylesheet"
      href="https://unpkg.com/swiper/swiper-bundle.min.css"
    />
-   <style>
-    html,
-    body {
-      position: relative;
-      height: 100%;
-    }
-
-    body {
-      
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    }
-
-    .swiper {
-      width: 300px;
-      height: 300px;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      margin-left: -150px;
-      margin-top: -50px;
-      margin-bottom: 25px;
-    }
-
-    .swiper-slide {
-      background-position: center;
-      background-size: cover;
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-    }
-
-
-    #cubeImgSize{
-
-
-      height: 100%;
-      width: 100%;
-
-    }
-
-    #cubeDescription{
-
-      font-family: Consolas;
-      margin-top: 5%;
-      padding-top: 1%;
-      padding-left: 2%;
-      padding-right: 2%;
-      font-size: 20px;
-      text-align: center;
-      display: block;
-      margin: auto; 
-
-      
-
-    }
-
-
-  </style>
 </head>
 <body>
     
 
 
-            <!-- Particle Effect -->
+<!-- Particle Effect -->
             <div id="snow"></div>
-            <!-- End of Particle Effect -->
+<!-- End of Particle Effect -->
 
             
 <!-- TOP IMAGE -->
@@ -103,60 +39,29 @@
 
     
 
-    <style>
+<style>
 
-      
-
-#headerText {
+      #headerText {
 
 
-text-align: center;
-font-family: Consolas;
-margin-top: 15px;
-font-size: 15px;
+      text-align: center;
+      font-family: Consolas;
+      margin-top: 15px;
+        font-size: 15px;
 
 
 }
 
-#underHeaderText {
+        #underHeaderText {
 
 
-text-align: center;
-font-family: Consolas;
-font-size: 11px;
+        text-align: center;
+        font-family: Consolas;
+        font-size: 11px;
 
 }
 
-/* Contact Me Button */
-.button1 {
- padding:1em;
- text-align: center;
- display:inline-block;
- text-decoration: none !important;
- margin:0 auto;
- border-style: solid;
- border-top-left-radius: 35px;
- border-top-right-radius: 35px;
- border-bottom-left-radius: 35px;
- border-bottom-right-radius: 35px;
-
- -webkit-transition: all 0.2s ease-in-out;
- -moz-transition: all 0.2s ease-in-out;
- -ms-transition: all 0.2s ease-in-out;
- -o-transition: all 0.2s ease-in-out;
- transition: all 0.2s ease-in-out;
- color: steelblue;
- margin-top: 5%;
- /* margin-bottom: 30%; */
- /* padding-bottom: 20%; */
- padding-left:30%;
- padding-right:30%;
-}
-/* End of Contact Me Button */
-
-
-
-    </style>
+</style>
 <!-- END OF HEADER -->
 
 
@@ -165,80 +70,8 @@ font-size: 11px;
 
 
 
-<!-- START OF CUBE -->
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div id='firstImage'class="swiper-slide" >
-            <img class='firstImage'id='cubeImgSize' src="../img/heroCopy.png" />
-           <div id='firstImage'> <button onclick="window.location.href='./aboutMeGO.html';" 
-            id="cubeDescription">About Me</button></div>
-            <!-- <p id="cubeDescription">About Me</p> -->
-          </div>
-          <div class="swiper-slide">
-            <img id='cubeImgSize' src="../img/4x3.png" />
-            <div id='firstImage'> <button onclick="window.location.href='../test.html';" 
-              id="cubeDescription">Portfolio</button></div>
-            <!-- <p id="cubeDescription">Portfolio</p> -->
-          </div>
-          <div class="swiper-slide">
-            <img id='cubeImgSize' src="../img/adventure quest1.png" />
-            <div id='firstImage'> <button onclick="window.location.href='../test.html';" 
-              id="cubeDescription">XR Experiences</button></div>
-            <!-- <p id="cubeDescription">XR Experiences</p> -->
-          </div>
-          <div class="swiper-slide">
-            <img id='cubeImgSize' src="../img/halo boy IV.png" />
-            <div id='firstImage'> <button onclick="window.location.href='../nftShowcase.html';" 
-              id="cubeDescription">NFT Showcase</button></div>
-            <!-- <p id="cubeDescription">NFT Showcase</p> -->
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-      
-      <style>
-        
-      </style>
-<!-- END OF CUBE -->
-
-<!-- SWIPE IMPLEMENTATION -->
-<script>
-let touchstartX = 0
-let touchendX = 0
-
-const slider = document.getElementById('slider')
-
-function handleGesture() {
-  if (touchendX < touchstartX) alert('swiped left!')
-  if (touchendX > touchstartX) alert('swiped right!')
-}
-
-slider.addEventListener('touchstart', e => {
-  touchstartX = e.changedTouches[0].screenX
-})
-
-slider.addEventListener('touchend', e => {
-  touchendX = e.changedTouches[0].screenX
-  handleGesture()
-})
-</script>
-      
-<!-- END SWIPE IMPLEMENTATION -->
 
 
-
-<!-- Contact Me Button -->
-<div class="buttonContainer">
-      <a href="./linkTreeGO.html" class="button1">Get In Touch</a>
-    </div>
-<style>
-      .buttonContainer{
-width: 100%;
-text-align: center;
-margin-top:120%;
-}
-</style>
-<!-- Contact Me Button -->
 
 <!-- DEVELOPER NOTES -->
       <div id="developerLogContainer">
