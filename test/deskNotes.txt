@@ -1,0 +1,5 @@
+- On Main screen when floating over portals also make sure that
+the text is still visible
+
+- NFT Showcase whenever you are settles on a current pictures
+a text box should appear below describing it a bit. 
