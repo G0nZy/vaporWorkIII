@@ -1,2 +1,7 @@
 image file sizes are 1024 × 1024 pixels with an
 image dpi of 72 pixels/inch
+
+
+
+using photoshop reshape all portals to make "mobile First"
+portal images in their own folder. 
