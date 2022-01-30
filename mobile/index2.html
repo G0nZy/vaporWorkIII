@@ -142,7 +142,7 @@ text-align: center;
  <div class="swiper mySwiper">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      <img src="../img/mobileImg/hero.png" />
+      <img id='photoTag1'src="../img/mobileImg/hero.png" />
       <p id="portalTag">Who</p>
     </div>
     <div class="swiper-slide">
@@ -209,6 +209,15 @@ text-align: center;
       el: ".swiper-pagination",
     },
   });
+</script>
+
+<script>
+
+document.getElementById("photoTag1").onclick = function(){photoClick1()};
+function photoClick1(){
+    window.location.href = "./aboutMeGO.html";
+};
+
 </script>
 
 
