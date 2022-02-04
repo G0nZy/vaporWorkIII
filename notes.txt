@@ -26,3 +26,6 @@ Major Goal for The Week of 1/16-1/22 is getting NFT Collection up to date
 Same as before just making my daily commit 
 
 daily
+
+Cleanup 
+daily
